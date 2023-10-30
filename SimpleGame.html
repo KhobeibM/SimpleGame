@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Rock Paper Scissors
+        </title>
+        <link rel="stylesheet" href="styles/RockPaperScissors.css">
+    </head>
+    <body>
+        <p class="title">Rock Paper Scissors</p>
+        <button onclick="GenerateComputerMove('Rock');" class="moveButton">
+            <img src="images/RockFinal.png" class="moveIcon">
+        </button>
+        <button onclick="GenerateComputerMove('Paper');" class="moveButton">
+            <img src="images/PaperFinal.png" class="moveIcon">
+        </button>
+        <button onclick="GenerateComputerMove('Scissors');" class="moveButton">
+            <img src="images/ScissorsFinal.png" class="moveIcon">
+        </button>
+        <p class="jsResult result"></p>
+        <p class="jsMoves">
+        </p>
+        <p class="jsScore score"></p>
+        <button onclick="resetCounters();" class="resetButton">Reset Score</button>
+        
+        <script src="scripts/RockPaperScissors.js"></script>
+    </body>
+</html>
